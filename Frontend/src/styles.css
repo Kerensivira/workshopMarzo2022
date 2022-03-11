@@ -41,3 +41,12 @@ left: 45%;
 
 /* CARDS */
 
+div#container_CARDS{
+
+display: flex;
+align-items: center;
+margin-top: 2%;
+margin-left: 2%;
+margin-bottom: 2%;
+
+}
