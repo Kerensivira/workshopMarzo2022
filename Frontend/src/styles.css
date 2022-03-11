@@ -1,29 +1,40 @@
-/* Navbar */
+ul.navbar-nav{
 
-   .centrar{
- 
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-   } 
+padding-left: 15%;
 
-nav.Navbar{
-        background-color: rgb(255, 255, 255);
-      width: 100%;
-    }
+}
+
+a.user{
+
+    position: relative;
+    left: 40%;
+
+}
+
+a.bag{
+
+    position: relative;
+    left: 40%;
+
+}
 
 
-    /* letras */
-div.menú1{
+/* footer */
 
-padding-right: 20%;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 32px;
-text-decoration: none;
-color: black;
 
+.footer{
+    width: 100%;
+    background-color: rgb(27, 26, 26);
+}
+
+div.logo2{
+position: relative;
+left: 45%;
+}
+
+div.redes{
+
+position: relative;
+left: 45%;
 
 }
