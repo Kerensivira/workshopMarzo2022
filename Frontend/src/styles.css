@@ -1,0 +1,29 @@
+/* Navbar */
+
+   .centrar{
+ 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+   } 
+
+nav.Navbar{
+        background-color: rgb(255, 255, 255);
+      width: 100%;
+    }
+
+
+    /* letras */
+div.menú1{
+
+padding-right: 20%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-decoration: none;
+color: black;
+
+
+}
