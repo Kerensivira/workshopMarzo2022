@@ -3,11 +3,17 @@ const signupForm = document.querySelector('#survey-form');
 signupForm.addEventListener('submit', (e) => {
     e.preventDefault()
     
-    const signupEmail = document.querySelector('#email').value;
-    const signupPassword = document.querySelector('#password').value;
+    let user = {
+        email : document.querySelector('#email').value,
+        password : document.querySelector('#password').value
+    }
+
+    localStorage.setItem('user',user)
 
         window.location.href = '/Frontend/index.html'
     
 
 })
+
+
 
