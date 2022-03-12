@@ -1,0 +1,61 @@
+ul.navbar-nav{
+
+padding-left: 15%;
+
+}
+
+a.user{
+
+    position: relative;
+    left: 40%;
+
+}
+
+a.bag{
+
+    position: relative;
+    left: 40%;
+
+}
+
+
+/* footer */
+
+
+.footer{
+    width: 100%;
+    background-color: rgb(27, 26, 26);
+}
+
+div.logo2{
+position: relative;
+left: 45%;
+}
+
+div.redes{
+
+position: relative;
+left: 45%;
+
+}
+
+/* CARDS */
+
+div#container_CARDS{
+
+display: flex;
+align-items: center;
+margin-top: 2%;
+margin-left: 2%;
+margin-bottom: 2%;
+
+}
+
+
+/* LOGIN */
+
+.form-group{
+
+margin-left: 20%;
+margin-right: 20%;
+}
