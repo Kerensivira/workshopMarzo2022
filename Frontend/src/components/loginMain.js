@@ -10,6 +10,8 @@ signupForm.addEventListener('submit', (e) => {
 
     localStorage.setItem('user',user)
 
+    console.log(user)
+
         window.location.href = '/Frontend/index.html'
     
 
