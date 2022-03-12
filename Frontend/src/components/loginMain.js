@@ -6,7 +6,8 @@ signupForm.addEventListener('submit', (e) => {
     const signupEmail = document.querySelector('#email').value;
     const signupPassword = document.querySelector('#password').value;
 
-console.log (signupEmail, signupPassword)
+        window.location.href = '/Frontend/index.html'
+    
 
 })
 
