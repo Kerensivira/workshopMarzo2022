@@ -22,11 +22,6 @@ axios
           return result
       }
       let imagenes = allImages();
-
-      imagenes.forEach(element => {
-        
-      });
-
       //Filters
       let items = [
         `Crown Sweatshirt`,
