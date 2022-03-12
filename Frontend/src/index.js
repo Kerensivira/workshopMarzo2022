@@ -42,6 +42,7 @@ axios
       todos.forEach(element => {
           const { imgUrl, name, price } = element;
           let html = document.querySelector('#container_CARDS');
+         innerHTML='';
           html.innerHTML+=`
           <div class="card" style="width: 18rem;">
             <img src="${imgUrl}"

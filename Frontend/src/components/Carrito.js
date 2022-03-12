@@ -1,0 +1,1 @@
+document.querySelectorAll('.btn btn-warning')
